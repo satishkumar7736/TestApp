@@ -1,0 +1,25 @@
+<html ng-app="myApp">
+<head>
+<title>Angular App</title>
+<!--css-->
+<!--Angular.min.js-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+<!--app.js-->
+<script src="E:\AngularApp\App\app.js"></script>
+<!--factory-->
+<script src="E:\AngularApp\App\Factoreys\multiplicationFactorey.js"></script>
+<!--service-->
+<script src=""></script>
+<!--controllers-->
+<script src="E:\AngularApp\App\Controllers\StudentController.js"></script>
+</head>
+<body>
+ <h1>welcome</h1>
+ <p>{{1+2}}</p>
+ <div ng-controller="studentController">
+  <p>{{name}}</p>
+  <p>{{endresult}}</p><br>
+  <input type="button" ng-click="getdata()" value="submit">
+ </div>
+</body>
+</html>
